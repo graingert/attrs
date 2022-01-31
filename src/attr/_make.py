@@ -1367,7 +1367,6 @@ if PY2:
             and cls.__setattr__.__name__ == _frozen_setattrs.__name__
         )
 
-
 else:
 
     def _has_frozen_base_class(cls):
